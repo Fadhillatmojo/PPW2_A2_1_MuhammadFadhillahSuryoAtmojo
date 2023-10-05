@@ -15,12 +15,9 @@ class BarangController extends Controller
         return view('barang', compact('barang'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     */
     public function create()
     {
-        //
+        
     }
 
     /**

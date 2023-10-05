@@ -1,4 +1,8 @@
 @extends('layout.main')
+@section('title')
+    Halaman Barang
+@endsection
+@include('navbar')
 @section('body')
 	@php
 		use Carbon\Carbon;
